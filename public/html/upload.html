@@ -1,0 +1,16 @@
+<!-- <form method="post" action="/uploads/upload" enctype="multipart/form-data">
+	<input type="text" name="name" value="name" />
+	<input type="file" name="csv">
+<br />
+<input type="submit" value="post" />
+</form>  -->
+
+<form method="post" action="/uploads/upload" class="form-inline" enctype="multipart/form-data">
+<div class="form-group">
+  <label for="files">Upload a CSV formatted file:</label>
+  <input type="file" id="files" name="csv" class="form-control" accept=".csv" required />
+</div>
+<div class="form-group">
+ <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+ </div>
+</form>
